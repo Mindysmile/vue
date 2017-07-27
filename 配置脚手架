@@ -10,4 +10,5 @@
 	cd xxx      -----cd vue-webpack-demo
 	npm install
 4. npm run dev 
-  若端口冲突，（在package.json里面--找出dev中的路径--。。。。经过漫长的寻找。。）==> config -index.js--改port
+  浏览器中输入http://localhost:8080
+  --若端口冲突，（在package.json里面--找出dev中的路径--。。。。经过漫长的寻找。。）==> config -index.js--改port
