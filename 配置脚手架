@@ -1,1 +1,13 @@
 
+---webpack----
+
+1. npm install vue-cli -g	安装 vue命令环境
+	验证安装ok?
+		vue --version
+2. 生成项目模板
+	vue init <模板名> 本地文件夹名称     -----vue init webpack#1.0 vue-webpack-demo   /  vue init webpack vue-webpack-demo下载最新版本的写法
+3. 进入到生成目录里面
+	cd xxx      -----cd vue-webpack-demo
+	npm install
+4. npm run dev 
+  若端口冲突，（在package.json里面--找出dev中的路径--。。。。经过漫长的寻找。。）==> config -index.js--改port
